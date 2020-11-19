@@ -124,7 +124,7 @@ import org.slf4j.LoggerFactory;
  * outputDeadletterTable=${PROJECT_ID}:dataset-id.deadletter-table"
  * </pre>
  */
-public class MultiPubSubToBigQuery {
+public class PubSubToBigQuery {
 
   /** The log to output status messages to. */
   private static final Logger LOG = LoggerFactory.getLogger(PubSubToBigQuery.class);
