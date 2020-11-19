@@ -2,7 +2,7 @@
 
 PROJECT=pj-becfr-bigdata-dev
 BUCKET=ps2bq_tmp_folder
-MAIN=com.google.cloud.teleport.templates.PubSubToBigQuery
+MAIN=com.google.cloud.teleport.templates.MultiPubSubToBigQuery
 
 echo "project=$PROJECT  bucket=$BUCKET  main=$MAIN"
 
