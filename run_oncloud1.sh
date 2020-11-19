@@ -12,5 +12,5 @@ mvn compile -e exec:java \
       -Dexec.args="--project=$PROJECT \
       --stagingLocation=gs://$BUCKET/staging/ \
       --tempLocation=gs://$BUCKET/staging/ \
-      --runner=DataflowRunner
+      --runner=DataflowRunner \
       --region=us-central1"
